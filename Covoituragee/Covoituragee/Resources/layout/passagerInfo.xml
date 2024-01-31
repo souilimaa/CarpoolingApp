@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#fff">
+      <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="2dp"
+
+        >
+        <refractored.controls.CircleImageView
+            android:paddingTop="16dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/userImage"
+            android:src="@drawable/circle"  
+  
+        />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:layout_weight="1"
+            >
+                <TextView
+                    android:text="N"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/PassagerFullNameTextV"
+                    android:paddingTop="4dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:paddingBottom="1dp"
+                    android:paddingLeft="4dp"
+           
+            />
+             
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout5" 
+                android:paddingLeft="2dp"
+              
+                >
+            <ImageView
+                android:src="@drawable/starratingicone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/R1" />
+
+                <ImageView
+                android:src="@drawable/starratingicone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2" />
+                <ImageView
+                android:src="@drawable/starratingicone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/R3" />
+                <ImageView
+                android:src="@drawable/starratingicone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/R4" />
+                <ImageView
+                android:src="@drawable/starratingicone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/R5" />
+                <TextView
+                    android:text="(5 avis)"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/nbrAvisTV" />
+
+
+
+
+
+
+                </LinearLayout>
+           
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+         <TextView
+                android:text="hhhh"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewnbrPlace"
+                android:gravity="end"
+            android:paddingTop="20dp"
+            android:layout_marginRight="10dp"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:id="@+id/linearLayout6" />
+    
+</LinearLayout>

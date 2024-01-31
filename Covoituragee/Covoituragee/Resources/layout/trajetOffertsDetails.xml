@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/l1"
+    android:background="#fff"
+    >
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:id="@+id/linearLayoutTop"
+            android:background="#0d996f"
+
+        
+        >
+
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/leftarricone"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/mtrl_btn_transparent_bg_color"            
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="6dp"
+
+        >
+            <refractored.controls.CircleImageView
+                android:paddingTop="16dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/userImage"
+                android:src="@drawable/circle"  
+  
+        />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:layout_weight="1"
+            >
+                <TextView
+                    android:text="N"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/DriverFullNameTextV"
+                    android:paddingTop="4dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:paddingBottom="1dp"
+                    android:paddingLeft="4dp"
+           
+            />
+                 <TextView
+                 android:text="Toyota | volv"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/CarMarkModeleTextV"
+                 android:textColor="#000000"
+                 android:paddingLeft="4dp"
+                 android:paddingBottom="4dp"
+                
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3"
+                android:layout_weight="0">
+                <TextView
+                    android:text="140 Dhs"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/TrajetPriceTextV"
+                    android:padding="4dp"
+                    android:textColor=" #50C878"
+                    android:textStyle="bold"
+                />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sourceTextV"
+            android:drawableLeft="@drawable/greenCircleIcon"
+            android:drawablePadding="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="35dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/destinationTextV"
+            android:drawableLeft="@drawable/circle"
+            android:drawablePadding="8dp"
+            android:paddingLeft="35dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+    />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateTrajetTextV"
+            android:drawableLeft="@drawable/dateIcone"
+            android:paddingLeft="28dp"
+            android:drawablePadding="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/black"
+            
+        
+
+        />
+        <TextView
+            android:text="Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LieuRencontreTV"
+            android:drawableLeft="@drawable/locaIcone"
+            android:paddingLeft="28dp"
+            android:drawablePadding="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/black"
+            
+        
+
+        />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TempsTrajetTextV"
+            android:drawableLeft="@drawable/clockIcon"
+            android:drawablePadding="8dp"
+            android:paddingLeft="28dp"
+            android:paddingTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingBottom="12dp"
+            android:textColor="@android:color/black"
+
+    />
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:elevation="4dp"
+            android:background="@drawable/shadowBorder"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="10dp"
+                    >
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carSeat"
+                android:id="@+id/imageV"
+                android:paddingLeft="7dp"
+                android:paddingTop="12dp"
+                
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp"
+                
+                >
+                <TextView
+                    android:text="2 restant(s)"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:id="@+id/nbrPlaceRestantsTextV" />
+                <TextView
+                    android:text="2 Total"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/nbrPlaceTotalTextV" />
+            </LinearLayout>
+        </LinearLayout>
+       
+    
+
+     <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Passagers Details:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:textColor="#64a7de"
+        android:id="@+id/PassagerDetailsTV"
+        
+        />
+   
+          
+     <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewPassagers" 
+            android:dividerHeight="6dp"
+        android:divider="@null"
+        android:layout_marginTop="8dp"
+        
+        />
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

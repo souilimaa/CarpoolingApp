@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutOfAll"
+>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="52.7dp"
+        android:id="@+id/linearLayout1"
+        android:background="#0d996f"
+>
+        
+            >
+            
+        <ImageView
+            android:src="@drawable/leftarricone"
+            android:layout_width="37.3dp"
+            android:layout_height="38.3dp"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="18px"
+            />
+
+            
+
+        <Button
+            android:text="suivant"
+            android:layout_width="91.3dp"
+            android:layout_height="38.0dp"
+            android:layout_marginTop="10.0dp"
+            android:id="@+id/button1"
+            android:freezesText="false"
+            android:textColor="#0d996f"
+            android:backgroundTint="#ffffffff"
+            app:cornerRadius="80dp"
+            android:layout_marginLeft="640px"
+         
+
+            />
+    </LinearLayout>
+
+
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TrajetsListView1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="293.7dp"
+            android:layout_height="51.0dp"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="150px"
+        android:background="@drawable/diagnostics1"
+        android:layout_marginLeft="130px"
+>
+        <ImageView
+            android:src="@drawable/car"
+            android:layout_width="37.3dp"
+            android:layout_height="53.0dp"
+            android:id="@+id/imageView1"
+            android:layout_marginLeft="20px" />
+
+
+        <AutoCompleteTextView
+            android:inputType="textMultiLine"
+            android:layout_width="235.3dp"
+            android:layout_height="51.0dp"
+            android:id="@+id/editTextMarqueV"
+            android:layout_marginLeft="5dp"
+            android:hint="Marque de voiture"
+            android:freezesText="false"
+            android:background="#E8EBEC"
+            app:cornerRadius="50dp"
+             android:completionThreshold="1"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="293.7dp"
+            android:layout_height="51.0dp"
+        android:id="@+id/linearLayout6"
+        android:layout_marginTop="150px"
+        android:background="@drawable/diagnostics1"
+        android:layout_marginLeft="130px"
+>
+        <ImageView
+            android:src="@drawable/control"
+            android:layout_width="37.3dp"
+            android:layout_height="53.0dp"
+            android:id="@+id/imageView6"
+            android:layout_marginLeft="20px" />
+
+
+        <AutoCompleteTextView
+            android:inputType="textMultiLine"
+            android:layout_width="235.3dp"
+            android:layout_height="51.0dp"
+            android:id="@+id/editTextModuleVir"
+            android:layout_marginLeft="5dp"
+            android:hint="Module de voiture"
+            android:freezesText="false"
+            android:background="#E8EBEC"
+            app:cornerRadius="50dp"
+             android:completionThreshold="1"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="293.7dp"
+            android:layout_height="51.0dp"
+                android:layout_marginTop="150px"
+
+  android:id="@+id/linearLayout3"
+         android:background="@drawable/diagnostics1"
+        android:layout_marginLeft="130px">
+        <ImageView
+            android:src="@drawable/schedule"
+            android:layout_width="37.3dp"
+            android:layout_height="53.0dp"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="20px" />
+        <AutoCompleteTextView
+            android:inputType="number"
+            android:layout_width="229.0dp"
+            android:layout_height="51.0dp"
+            android:id="@+id/editTextModuleV"
+            android:layout_marginLeft="5dp"
+            android:hint="Module de voiture(l'année)"
+            android:background="#E8EBEC"
+            android:layout_marginRight="0.0dp"
+            android:maxLength="4"
+            
+/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="293.7dp"
+            android:layout_height="51.0dp"
+        android:id="@+id/linearLayout4"
+                android:layout_marginTop="150px"
+        android:background="@drawable/diagnostics1"
+        android:layout_marginLeft="130px">
+        <ImageView
+            android:src="@drawable/plate"
+            android:layout_width="37.3dp"
+            android:layout_height="53.0dp"
+            android:id="@+id/imageView3"
+            android:layout_marginLeft="20px" />
+        <AutoCompleteTextView
+            android:inputType="textMultiLine"
+            android:layout_width="229.0dp"
+            android:layout_height="51.0dp"
+            android:id="@+id/editTextMatriculeV"
+            android:layout_marginLeft="5dp"
+            android:hint="Matricule de voiture"
+            android:background="#E8EBEC"
+            android:layout_marginRight="0.0dp" 
+/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="293.7dp"
+        android:layout_height="51.0dp"
+        android:id="@+id/linearLayout5"
+        android:layout_marginTop="150px"
+        android:background="@drawable/diagnostics1"
+        android:layout_marginLeft="130px">
+        <ImageView
+            android:src="@drawable/bucket"
+            android:layout_width="37.3dp"
+            android:layout_height="53.0dp"
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="20px" />
+        <AutoCompleteTextView
+            android:inputType="textMultiLine"
+            android:layout_width="229.0dp"
+            android:layout_height="51.0dp"
+            android:id="@+id/editTextCouleurV"
+            android:layout_marginLeft="5dp"
+            android:hint="couleur du voiture"
+            android:background="#E8EBEC"
+            android:layout_marginRight="0.0dp"
+            android:completionThreshold="1"
+
+/>
+    </LinearLayout>
+    <Button
+        android:text="Déja existe"
+        android:layout_width="330.7dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_marginLeft="30.0dp"
+        android:layout_marginRight="10.0dp"
+        android:textAllCaps="false"
+        app:backgroundTint="#ff000000"
+        android:backgroundTint="#0d996f"
+        app:cornerRadius="80dp" 
+        android:layout_marginTop="150px"
+
+        />
+</LinearLayout>

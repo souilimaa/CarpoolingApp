@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutOfAll2"
+>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="52.7dp"
+        android:id="@+id/linearLayout1"
+        android:background="#0d996f"
+>
+        <ImageView
+            android:src="@drawable/leftarricone"
+            android:layout_width="37.3dp"
+            android:layout_height="38.3dp"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="18px"
+                 />
+
+
+
+        <Button
+            android:text="suivant"
+            android:layout_width="91.3dp"
+            android:layout_height="38.0dp"
+            android:layout_marginTop="10.0dp"
+            android:id="@+id/button1"
+            android:freezesText="false"
+            android:textColor="#0d996f"
+            android:backgroundTint="#ffffffff"
+            app:cornerRadius="80dp"
+            android:layout_marginLeft="640px"
+         
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="293.7dp"
+        android:layout_height="51.0dp"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="150px"
+        android:background="@drawable/diagnostics1"
+        android:layout_marginLeft="130px"
+>
+        <ImageView
+            android:src="@drawable/seat"
+            android:layout_width="37.3dp"
+            android:layout_height="53.0dp"
+            android:id="@+id/imageView1"
+            android:layout_marginLeft="20px" />
+
+
+        <EditText
+            android:inputType="number"
+            android:layout_width="235.3dp"
+            android:layout_height="51.0dp"
+            android:id="@+id/editTextplace"
+            android:layout_marginLeft="5dp"
+            android:hint="Entrer le Nombre de Place"
+            android:freezesText="false"
+            android:background="#E8EBEC"
+            app:cornerRadius="50dp"
+            android:maxLength="1"
+            
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="293.7dp"
+        android:layout_height="51.0dp"
+        android:layout_marginTop="200px"
+        android:id="@+id/linearLayout3"
+        android:background="@drawable/diagnostics1"
+        android:layout_marginLeft="130px"
+        >
+        <ImageView
+            android:src="@drawable/dirham"
+            android:layout_width="37.3dp"
+            android:layout_height="53.0dp"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="20px" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="235.3dp"
+            android:layout_height="51.0dp"
+            android:id="@+id/editTextprix"
+            android:layout_marginLeft="5dp"
+            android:hint="Prix de place"
+            android:freezesText="false"
+            android:background="#E8EBEC"
+            app:cornerRadius="50dp"
+            android:backgroundTint="#E8EBEC" 
+            
+        />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

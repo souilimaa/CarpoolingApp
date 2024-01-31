@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:id="@+id/linearLayoutAll"
+
+>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="6dp"
+
+        >
+        <refractored.controls.CircleImageView
+
+                android:paddingTop="16dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/userImage"
+            android:src="@drawable/car"
+
+
+  
+        />
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="251.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:text="Toyota | volv"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/CarMarkModeleTextV"
+                android:textColor="#000000"
+                android:paddingBottom="4dp"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="70px"
+                        android:drawablePadding="8dp"
+
+                
+                />
+
+
+        </LinearLayout>
+        
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModuleAnnéTextV"
+        android:drawablePadding="8dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/greenCircleIcon"
+        
+
+            />
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorTextV"
+        android:drawablePadding="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/greenCircleIcon"
+
+    />
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MatriculeTextV"
+        android:paddingLeft="10dp"
+        android:drawablePadding="8dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="12dp"
+                android:drawableLeft="@drawable/greenCircleIcon"
+
+
+        />
+   <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="Sélectionner"
+            android:layout_width="369.5dp"
+            android:textColor="@android:color/white"
+            android:layout_height="38dp"
+            android:textAllCaps="false"
+            android:id="@+id/btnaccepted"
+            android:layout_margin="6dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0"
+            android:background="#ff33691e" 
+           />
+        
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

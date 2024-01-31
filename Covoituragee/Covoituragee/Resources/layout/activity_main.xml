@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:src="@drawable/Logo7"
+            tools:ignore="ContentDescription"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="20dp" />
+
+    
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:id="@+id/textView3"
+            android:text="Bienvenue sur WeGo, notre application de covoiturage vous offre la possibilité de covoiturer pour répondre à vos besoins. Voyagez de manière intelligente, économique, écologique et en bonne compagnie !"
+            android:layout_marginBottom="20dp" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SE CONNECTER"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_radius2"
+            android:textColor="#fffafafa" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CRÉER UN COMPTE"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="#0d996f"
+            android:background="@drawable/button_border_radius"
+            android:fontFamily="cabli" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:text="S'inscrire"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:id="@+id/txtsignup"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:text="Ajouter vos informations pour vous s'inscrire"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/firstnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:hint="Votre Prénom"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/lastnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:hint="Votre Nom"
+        android:padding="10dp"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/semailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:hint="Votre Email"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/spasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:hint="Mot de passe"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="textPassword" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/cinEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="Votre CIN"
+            android:padding="10dp"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:id="@+id/phonenumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="Votre numero de télephone"
+            android:padding="10dp"
+            android:layout_margin="10dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/datePickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Date de naissance"
+            android:layout_centerInParent="true"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+        <RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/edit_text_background" >
+
+    <RadioButton
+        android:id="@+id/radioButtonMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Femme"/>
+
+    <RadioButton
+        android:id="@+id/radioButtonFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homme"/>
+
+</RadioGroup>
+    </LinearLayout>
+
+ <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sbtn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRÉER UN COMPTE"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_radius2"
+        android:textColor="#fffafafa" />
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous avez déjà un compte ?"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="55dp"/>
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connectez-vous"
+        android:textColor="#0d996f" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
