@@ -37,11 +37,11 @@ namespace Covoituragee
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        private const string CLIENT_ID = "AQV_v990Rt9AuF9BKBdo-9BUSVDtCXARho3Xus6HN4iPlB98CDHEsn1O_n0GjT7NIHa8nzH_ow0yv52e";
-        private const string CLIENT_SECRET = "EB9ERFLA4MOn1H-qU29Y7zP-4YPGlD9V5ppGCpmOH5tmH55qNmjq0Cgi6V7PSpbIbl2pF7BhEE2Zrc5z";
+        private const string CLIENT_ID = "";
+        private const string CLIENT_SECRET = "";
         private const string SANDBOX_URL = "https://api-m.sandbox.paypal.com";
         static public decimal montant;
-        public static readonly string connectionString = @"data source=100.91.226.90;initial catalog=covoiturage;user id=salmaCarpooling;password=salma.04;";
+        public static readonly string connectionString = @"data source=yourIphere;initial catalog=covoiturage;user id=yourid;password=yourPassword;";
         public static int userId;
 
         protected override void OnCreate(Bundle savedInstanceState)
